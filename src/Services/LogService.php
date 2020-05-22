@@ -2,7 +2,7 @@
 
 namespace JKocik\Laravel\Profiler\Services;
 
-use Exception;
+use Throwable;
 use Illuminate\Support\Facades\Log;
 
 class LogService
@@ -25,11 +25,11 @@ class LogService
     }
 
     /**
-     * @param Exception $e
-     * @throws Exception
+     * @param Throwable $e
+     * @throws Throwable
      * @return void
      */
-    public function error(Exception $e): void
+    public function error(Throwable $e): void
     {
         if ($this->configService->handleExceptions(self::HANDLE_EXCEPTIONS_THROW)) {
             throw $e;

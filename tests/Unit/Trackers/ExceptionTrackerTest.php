@@ -15,7 +15,7 @@ use JKocik\Laravel\Profiler\Tests\Support\Fixtures\DummyException;
 class ExceptionTrackerTest extends TestCase
 {
     /**
-     * @var \Exception
+     * @var \Throwable
      */
     protected $exception;
 

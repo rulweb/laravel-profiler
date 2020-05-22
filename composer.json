@@ -1,8 +1,8 @@
 {
-    "name": "jkocik/laravel-profiler",
-    "description": "Profiler for Laravel framework 5.2+",
+    "name": "rulweb/laravel-profiler",
+    "description": "Profiler for Laravel framework 7",
     "keywords": ["laravel", "profiler", "debugbar"],
-    "homepage": "https://github.com/jkocik/laravel-profiler",
+    "homepage": "https://github.com/rulweb/laravel-profiler",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": "^7.2.5",
         "guzzlehttp/guzzle": "^5.0 || ^6.0"
     },
     "require-dev": {
@@ -28,7 +28,7 @@
             "JKocik\\Laravel\\Profiler\\": "src/"
         },
         "files": [
-            "src/Services/helpers.php"
+          "src/Services/helpers.php"
         ]
     },
     "autoload-dev": {

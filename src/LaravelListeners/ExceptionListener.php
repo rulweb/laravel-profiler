@@ -2,7 +2,7 @@
 
 namespace JKocik\Laravel\Profiler\LaravelListeners;
 
-use Exception;
+use Throwable;
 use Illuminate\Support\Facades\Event;
 use JKocik\Laravel\Profiler\Events\ExceptionHandling;
 use JKocik\Laravel\Profiler\Contracts\LaravelListener;
@@ -10,7 +10,7 @@ use JKocik\Laravel\Profiler\Contracts\LaravelListener;
 class ExceptionListener implements LaravelListener
 {
     /**
-     * @var Exception
+     * @var Throwable
      */
     protected $exception;
 
@@ -25,9 +25,9 @@ class ExceptionListener implements LaravelListener
     }
 
     /**
-     * @return Exception|null
+     * @return Throwable|null
      */
-    public function exception(): ?Exception
+    public function exception(): ?Throwable
     {
         return $this->exception;
     }
