@@ -61,7 +61,7 @@ Requirements: PHP 7.1+ and Laravel 5.2+
 It is recommended to install Profiler Package only for development
 
 ```shell
-composer require jkocik/laravel-profiler --dev
+composer require rulweb/laravel-profiler --dev
 ```
 
 For Laravel 5.5+ you are fine and you can go to Step 2 of this installation process.

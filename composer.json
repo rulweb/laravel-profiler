@@ -1,6 +1,6 @@
 {
     "name": "rulweb/laravel-profiler",
-    "description": "Profiler for Laravel framework 7",
+    "description": "Profiler for Laravel framework 5.2+.",
     "keywords": ["laravel", "profiler", "debugbar"],
     "homepage": "https://github.com/rulweb/laravel-profiler",
     "license": "MIT",
